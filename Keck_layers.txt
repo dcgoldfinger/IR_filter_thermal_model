@@ -1,0 +1,11 @@
+#material must be chosen from this list defined in the material section: 
+#alumina_scale, alumina_compl, fquartz, zfoam, teflon, nylon and hdpe.
+#ambient thickness default is 1000 (inf), material is air
+#name               material      thickness(m)  diameter(m)   sr          T_hot(K)  T_cold(K)
+ambient             air           1000          0.318         3.14        290       290 
+zfoam               zfoam         0.10000       0.318         3.14        190       170
+teflon1_50K         teflon        0.01270       0.300         3.14        125       50.0
+teflon2_50K         teflon        0.03430       0.280         3.14        61        50.0
+nylon1_50K          nylon         0.00300       0.280         3.14        54        50.0
+hdpe_lenses         hdpe          0.04500       0.264         3.14        8.0       4.0
+nylon2_4K           nylon         0.00500       0.220         0.12        9.0       4.0
